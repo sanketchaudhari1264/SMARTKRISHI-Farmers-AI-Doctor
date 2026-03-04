@@ -1,0 +1,15 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#e8f5e9"/>
+  <text x="400" y="280" font-family="Arial" font-size="24" fill="#2d7a4f" text-anchor="middle">
+    SmartKrishi
+  </text>
+  <text x="400" y="320" font-family="Arial" font-size="48" fill="#0d3b2e" text-anchor="middle">
+    🌱
+  </text>
+  <text x="400" y="360" font-family="Arial" font-size="18" fill="#555" text-anchor="middle">
+    Replace this with your hero image
+  </text>
+  <text x="400" y="390" font-family="Arial" font-size="14" fill="#777" text-anchor="middle">
+    (Hand holding plant seedling)
+  </text>
+</svg>

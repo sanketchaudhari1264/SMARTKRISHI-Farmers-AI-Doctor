@@ -1,0 +1,5 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="300" fill="#e0e0e0"/>
+  <text x="200" y="140" font-family="Arial" font-size="32" fill="#2d7a4f" text-anchor="middle">📸</text>
+  <text x="200" y="180" font-family="Arial" font-size="18" fill="#555" text-anchor="middle">Upload Photo</text>
+</svg>
