@@ -1,0 +1,207 @@
+.container {
+  width: 100%;
+}
+
+.heroSection {
+  background: linear-gradient(135deg, #2d7a4f 0%, #0d3b2e 100%);
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  color: white;
+}
+
+.pageTitle {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  opacity: 0.9;
+}
+
+.contentSection {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.infoCard {
+  background: white;
+  padding: 2.5rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.infoCard h2 {
+  color: #2d7a4f;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.infoCard p {
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.infoCard ul {
+  margin-left: 2rem;
+  color: #333;
+  font-size: 1.1rem;
+  line-height: 2;
+}
+
+.infoCard li {
+  margin-bottom: 0.5rem;
+}
+
+/* Founder Section */
+.founderSection {
+  padding: 5rem 2rem;
+  background-color: #f0f9f4;
+  text-align: center;
+}
+
+.founderTitle {
+  font-size: 2.5rem;
+  color: #2d7a4f;
+  font-weight: 800;
+  margin-bottom: 3rem;
+}
+
+.founderCard {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(45, 122, 79, 0.15);
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  padding: 3rem;
+  border-top: 5px solid #4caf50;
+  text-align: left;
+}
+
+.founderImageWrapper {
+  flex-shrink: 0;
+}
+
+.founderImage {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  border: 5px solid #4caf50;
+  box-shadow: 0 4px 16px rgba(45, 122, 79, 0.3);
+  display: block;
+}
+
+.founderInitials {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 5px solid #4caf50;
+  box-shadow: 0 4px 16px rgba(45, 122, 79, 0.3);
+  background: linear-gradient(135deg, #2d7a4f, #4caf50);
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  letter-spacing: 2px;
+}
+
+.founderInfo h3 {
+  font-size: 2rem;
+  color: #0d3b2e;
+  font-weight: 800;
+  margin-bottom: 0.4rem;
+}
+
+.founderRole {
+  display: inline-block;
+  background-color: #e8f5e9;
+  color: #2d7a4f;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1.2rem;
+}
+
+.founderInfo p {
+  color: #444;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+}
+
+.founderTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.2rem;
+}
+
+.founderTags span {
+  background-color: #f0f9f4;
+  border: 2px solid #4caf50;
+  color: #2d7a4f;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .pageTitle {
+    font-size: 2.5rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1.2rem;
+  }
+
+  .infoCard {
+    padding: 1.5rem;
+  }
+
+  .infoCard h2 {
+    font-size: 1.5rem;
+  }
+
+  .infoCard p,
+  .infoCard ul {
+    font-size: 1rem;
+  }
+
+  .founderCard {
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    gap: 1.5rem;
+  }
+
+  .founderTitle {
+    font-size: 2rem;
+  }
+
+  .founderInfo h3 {
+    font-size: 1.6rem;
+  }
+
+  .founderTags {
+    justify-content: center;
+  }
+}

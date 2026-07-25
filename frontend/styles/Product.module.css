@@ -1,0 +1,277 @@
+.container {
+  width: 100%;
+}
+
+/* Hero */
+.heroSection {
+  background: linear-gradient(135deg, #2d7a4f 0%, #0d3b2e 100%);
+  padding: 4rem 2rem 3.5rem;
+  text-align: center;
+  color: white;
+}
+
+.comingSoonBadge {
+  display: inline-block;
+  background-color: #ff9800;
+  color: white;
+  font-size: 0.95rem;
+  font-weight: 700;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  margin-bottom: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.pageTitle {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  font-weight: 800;
+}
+
+.heroSubtitle {
+  font-size: 1.3rem;
+  opacity: 0.9;
+}
+
+/* Info Banner */
+.infoBanner {
+  background-color: #e8f5e9;
+  padding: 3rem 2rem;
+  border-top: 4px solid #4caf50;
+  border-bottom: 4px solid #4caf50;
+}
+
+.infoBannerInner {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.infoBannerInner h2 {
+  font-size: 2rem;
+  color: #0d3b2e;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.infoBannerInner p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 0.8rem;
+}
+
+/* Products */
+.productsSection {
+  padding: 4rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.sectionLabel {
+  text-align: center;
+  font-size: 2rem;
+  color: #2d7a4f;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+}
+
+.productsGrid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.productCard {
+  background: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-top: 4px solid #4caf50;
+  position: relative;
+}
+
+.productCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 28px rgba(45, 122, 79, 0.18);
+}
+
+.productIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.productHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.productCard h3 {
+  color: #0d3b2e;
+  font-size: 1.2rem;
+  font-weight: 700;
+  flex: 1;
+}
+
+.badgeComingSoon {
+  background-color: #ff9800;
+  color: white;
+  padding: 0.3rem 0.9rem;
+  border-radius: 20px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.description {
+  color: #555;
+  font-size: 0.97rem;
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+.featureList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.featureList li {
+  color: #444;
+  font-size: 0.92rem;
+  padding: 0.35rem 0 0.35rem 1.4rem;
+  position: relative;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.featureList li:last-child {
+  border-bottom: none;
+}
+
+.featureList li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #4caf50;
+  font-weight: 700;
+}
+
+/* Contact */
+.contactSection {
+  padding: 5rem 2rem;
+  text-align: center;
+  background-color: #fff;
+}
+
+.contactSection h2 {
+  font-size: 2.3rem;
+  color: #2d7a4f;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.contactSubtitle {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 3rem;
+  line-height: 1.7;
+}
+
+.contactGrid {
+  max-width: 1000px;
+  margin: 0 auto 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+
+.contactCard {
+  background-color: #f0f9f4;
+  padding: 2rem 1.2rem;
+  border-radius: 12px;
+  border: 2px solid #b2dfdb;
+  transition: transform 0.3s ease;
+}
+
+.contactCard:hover {
+  transform: translateY(-4px);
+  border-color: #4caf50;
+}
+
+.contactIconBox {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.contactCard h3 {
+  color: #2d7a4f;
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+
+.contactCard p {
+  color: #333;
+  font-size: 0.95rem;
+  margin: 0.2rem 0;
+  line-height: 1.5;
+}
+
+.contactCard span {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.82rem;
+  color: #888;
+  font-style: italic;
+}
+
+.noteBox {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #fffde7;
+  border: 2px solid #ffc107;
+  border-radius: 10px;
+  padding: 1.5rem 2rem;
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  text-align: left;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .productsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contactGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .pageTitle {
+    font-size: 2rem;
+  }
+
+  .productsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactSection h2 {
+    font-size: 1.8rem;
+  }
+}
